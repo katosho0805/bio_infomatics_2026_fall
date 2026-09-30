@@ -3,10 +3,10 @@
 using namespace std;
 
 double f1(double x) {
-    return exp(x) + x - 5;        // eˣ + x − 5。eˣ は exp(x) で書く
+    return exp(x) + x - 5;        
 }
 double f2(double x) {
-    return cbrt(x);        // xの三乗根。cbrt(x) を使う
+    return cbrt(x);      
 }
 
 int main(void) {
